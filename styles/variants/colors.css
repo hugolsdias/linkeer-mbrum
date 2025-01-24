@@ -1,0 +1,16 @@
+:root{
+/* Colors */
+--primary: #F50;
+--background: #D1D1D1;
+--card-brackground: #E8E8E8;
+--black: #030303;
+
+--title: var(--black);
+--text: #3A3A3A;
+--text-light: #FFF;
+
+--button-black: var(--black);
+--button-primary: var(--primary);
+
+--border-primary: var(--primary);
+}
