@@ -2,18 +2,41 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkeer</title>
     <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="buttons-wrapper">
-
+    <div class="h-screen flex flex-col justify-center">
+      <div class="container">
+        <div class="buttons-wrapper button-wrapper-share">
+          <button class="button button-small button-secondary">
+            <i class="ph ph-share-network"></i>
+            Share
+          </button>
+        </div>
+        <div class="card px-24 pt-80 pb-32 mt-16 relative">
+          <span class="avatar h-140 w-140 flex p-3 bg-card">
+            <div class="avatar-image">
+              <img
+                src="https://github.com/hugolsdias.png"
+                alt="Homem preto de camisa preta, Hugo Dias."
+              />
+            </div>
+          </span>
+          <div class="flex flex-col text-center">
+            <strong class="profile-name text-32 regular">Hugo Dias</strong>
+            <p class="font-title text-16">CTO & Innovation</p>
+          </div>
+        </div>
       </div>
-      
-
-
     </div>
   </body>
 </html>

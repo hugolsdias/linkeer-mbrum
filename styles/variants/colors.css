@@ -5,8 +5,8 @@
   --primary: #f50;
   --secondary: #222;
 
+  --card-background: #111;
   --background: var(--black);
-  --card-brackground: #111;
 
   --text: #d1d1d1;
   --title: var(--text);
@@ -15,4 +15,16 @@
   --button-secondary: var(--secondary);
 
   --border-primary: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-card {
+  background-color: var(--card-background);
 }
